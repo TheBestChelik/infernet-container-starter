@@ -14,7 +14,7 @@ contract Deploy is Script {
         address deployerAddress = vm.addr(deployerPrivateKey);
         console2.log("Loaded deployer: ", deployerAddress);
 
-        address registry = 0x663F3ad617193148711d28f5334eE4Ed07016602;
+        address registry = 0xe2F36C4E23D67F81fE0B278E80ee85Cf0ccA3c8d;
         // Create consumer
         SaysGM saysGm = new SaysGM(registry);
         console2.log("Deployed SaysHello: ", address(saysGm));
