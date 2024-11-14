@@ -2,7 +2,6 @@
 **/.DS_Store
 
 # Byte-compiled / optimized / DLL files
-deploy/config.json
 
 __pycache__/
 *.py[cod]
