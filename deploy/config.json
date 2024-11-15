@@ -20,7 +20,7 @@
     "snapshot_sync": {
       "sleep": 3,
       "batch_size": 800,
-      "starting_sub_id": 160000,
+      "starting_sub_id": 180000,
       "sync_period": 30
     }
   },
